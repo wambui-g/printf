@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+=======
+#ifndef _MAIN_H
+#define _MAIN_H
+>>>>>>> 896a8ad6a031f1ab76f676be89dda0aced6e42b9
 
 #include <stdlib.h>
 #include <stdarg.h>
+<<<<<<< HEAD
 /**
  * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
@@ -50,3 +56,10 @@ int print_bigS(va_list l, flags_t *f);
 int print_address(va_list l, flags_t *f);
 int print_percent(va_list l, flags_t *f);
 #endif
+=======
+
+int _putchar(char c);
+int _printf(const char *format, ...);
+
+#endif /* MAIN_H */
+>>>>>>> 896a8ad6a031f1ab76f676be89dda0aced6e42b9
