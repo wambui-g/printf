@@ -1,7 +1,3 @@
-# printf
-# Description
-In C programming language, printf() function is used to print the “character, string, float, integer, octal and hexadecimal values” onto the output screen.
-
 The available convertion specifiers are:
 
 %c: Prints a single character.
@@ -48,4 +44,5 @@ int main(void)
 }
 
 # Authors:
-Abel Berhanu and Robel Amede
+Beryl
+Wambui
