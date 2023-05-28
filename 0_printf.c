@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 #include "main.h"
 
 int print_int(int num);
@@ -33,27 +34,27 @@ int _printf(const char *format, ...)
 			{
 				case 'c':
 					ch = va_arg(args, int);
-					putchar(ch);
+					_putchar(ch);
 					count++;
 					break;
 				case 's':
 					str = va_arg(args, char*);
 					while (*str != '\0')
 					{
-						putchar(*str);
+						_putchar(*str);
 						str++;
 						count++;
 					}
 					break;
 				case '%':
-					putchar('%');
+					_putchar('%');
 					count++;
 					break;
 			}
 		}
 		else
 		{
-			putchar(*format);
+			_putchar(*format);
 			count++;
 		}
 		format++;
