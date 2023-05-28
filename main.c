@@ -36,7 +36,7 @@ _printf("Len:[%d]\n", len);
 printf("Len:[%d]\n", len2);
 _printf("Unknown:[%r]\n");
 _printf("String:[%s]\n", "I am a string !");
-printf("Unknown:[%%]\n");
+printf("Unknown:[%r]\n");
 _printf("Negative:[%d]\n", -762534);
 return (0);
 }
