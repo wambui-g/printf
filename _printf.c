@@ -53,9 +53,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints the contents of the buffer if it exist
- * @buffer: Array of chars
- * @buff_ind: Index at which to add next char, represents the length.
+ * The function "print_buffer" is responsible for printing the contents of the buffer if it exists.
+ *   - @buffer: An array of characters representing the buffer.
+ *   - @buff_ind: An index indicating the position at which the next character should be added, effectively representing the length of the buffer.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
